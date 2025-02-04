@@ -4,7 +4,7 @@ function Home() {
   const [name,setName]=useState("Your Name")
   const [count,setCount]=useState(0)
   const [visible,setVisible]=useState("none")
-  const [Theme,setTheme]=useState(false)
+  const [Theme,setTheme]=useState(true)
   const ThemeStyle={backgroundColor:Theme?'white':'black',color:Theme?'black':'white'}
   return (
     <div style={ThemeStyle}>

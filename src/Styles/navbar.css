@@ -9,14 +9,17 @@
 }
 
 .Nav-container ul {
+    text-align: center;
+    width: 100%;
     list-style: none;
     display: flex;
-    gap: 20px;
+    gap: 15%;
     padding: 0;
     margin: 0;
 }
 
 .Nav-container ul li {
+
     color: white;
     font-size: 18px;
     font-weight: 500;
@@ -29,4 +32,12 @@
 .Nav-container ul li:hover {
     color: black;
     transform: scale(1.1);
+}
+.Nav-container  img{
+   margin-left: auto;
+    width: 40px;
+   height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: transform 0.3s ease;
 }
